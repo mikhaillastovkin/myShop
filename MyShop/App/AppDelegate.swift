@@ -14,6 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
+        //MARK: - Auth
         let auth = requestFactory.makeAuthRequestFatory()
         auth.login(userName: "Somebody", password: "mypassword") { response in
             switch response.result {
@@ -23,6 +24,57 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 print(error.localizedDescription)
             }
         }
+
+        //MARK: - Regist new user
+        let register = requestFactory.registerNewUser()
+        let newUser = UserData(
+            id: 123,
+            username: "Somebody",
+            password: "mypassword",
+            email: "some@some.ru",
+            gender: "m",
+            creditCard: "9872389-2424-234224-234",
+            bio: "This is good! I think I will switch to another language")
+        register.register(newUser: newUser) { response in
+            switch response.result {
+
+            case .success(let resultMessage):
+                print(resultMessage)
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+        }
+
+        //MARK: - Logout
+        let logout = requestFactory.logout()
+        logout.logout(userId: 123) { response in
+            switch response.result {
+            case .success(let resultMessage):
+                print("\(logout.self) \(resultMessage)")
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+        }
+
+        //MARK: - Change user data
+        let changeData = requestFactory.changeUserData()
+        let newData = UserData(
+            id: 123,
+            username: "Somebody",
+            password: "mypassword",
+            email: "some@some.ru",
+            gender: "m",
+            creditCard: "9872389-2424-234224-234",
+            bio: "This is good! I think I will switch to another language")
+        changeData.register(newData: newData) { response in
+            switch response.result {
+            case .success(let resultMessage):
+                print("\(changeData.self) \(resultMessage)")
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+        }
+
         return true
     }
 

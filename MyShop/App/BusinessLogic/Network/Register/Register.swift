@@ -1,5 +1,5 @@
 //
-//  Auth.swift
+//  Register.swift
 //  MyShop
 //
 //  Created by Михаил Ластовкин on 26.04.2022.
@@ -7,7 +7,7 @@
 
 import Alamofire
 
-class Auth: AbstractRequestFactory {
+class Register: AbstractRequestFactory {
     let errorParser: AbstractErrorParser
     let sessionManager: Session
     let queue: DispatchQueue
@@ -20,30 +20,35 @@ class Auth: AbstractRequestFactory {
             self.errorParser = errorParser
             self.sessionManager = sessionManager
             self.queue = queue
-
         }
 }
 
-extension Auth: AuthRequestFactory {
-    func login(userName: String, password: String, completionHandler: @escaping
-            (AFDataResponse<LoginResult>) -> Void) {
-                let requestModel = Login(
-                    baseUrl: baseUrl,
-                    login: userName,
-                    password: password)
+extension Register: RegisterRequestFactory {
+
+    func register(newUser: UserData, completionHandler: @escaping (AFDataResponse<RegisterUserResult>) -> Void) {
+        let requestModel = NewUserRequest(
+            newUser: newUser,
+            baseUrl: baseUrl)
         self.request(request: requestModel, completionHandler: completionHandler)
     }
 }
 
-extension Auth {
-    struct Login: RequestRouter {
+extension Register {
+    struct NewUserRequest: RequestRouter {
+        let newUser: UserData
         let baseUrl: URL
         let method: HTTPMethod = .get
-        let path: String = "login.json"
-        let login: String
-        let password: String
+        let path: String = "registerUser.json"
         var parameters: Parameters? {
-            return ["username": login, "password": password]
+            return [
+                "id_user": newUser.id,
+                "username": newUser.username,
+                "password": newUser.password,
+                "email": newUser.email,
+                "gender": newUser.gender,
+                "credit_card": newUser.creditCard,
+                "bio": newUser.bio
+            ]
         }
     }
 }

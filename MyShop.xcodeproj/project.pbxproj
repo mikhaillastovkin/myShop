@@ -17,6 +17,15 @@
 		740FE4C82818277C00458891 /* AuthRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FE4C72818277C00458891 /* AuthRequestFactory.swift */; };
 		740FE4CA281827B500458891 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FE4C9281827B500458891 /* Auth.swift */; };
 		740FE4CC281828BD00458891 /* RequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FE4CB281828BD00458891 /* RequestFactory.swift */; };
+		740FE4CE28182C8900458891 /* RegisterRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FE4CD28182C8900458891 /* RegisterRequestFactory.swift */; };
+		740FE4D028182FFD00458891 /* RegisterUserResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FE4CF28182FFD00458891 /* RegisterUserResult.swift */; };
+		740FE4D6281833AE00458891 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FE4D5281833AE00458891 /* Register.swift */; };
+		740FE4D82818392E00458891 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FE4D72818392E00458891 /* UserData.swift */; };
+		740FE4DB28183D7400458891 /* BoolRequestResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FE4DA28183D7400458891 /* BoolRequestResult.swift */; };
+		740FE4DE28183DCF00458891 /* LogoutRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FE4DD28183DCF00458891 /* LogoutRequestFactory.swift */; };
+		740FE4E028183E2700458891 /* Logout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FE4DF28183E2700458891 /* Logout.swift */; };
+		740FE4E32818405500458891 /* ChangeUserDataRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FE4E22818405500458891 /* ChangeUserDataRequestFactory.swift */; };
+		740FE4E52818410100458891 /* ChangeUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FE4E42818410100458891 /* ChangeUserData.swift */; };
 		74BB4C2D2816BDC100712603 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BB4C2C2816BDC100712603 /* AppDelegate.swift */; };
 		74BB4C2F2816BDC100712603 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BB4C2E2816BDC100712603 /* SceneDelegate.swift */; };
 		74BB4C362816BDC200712603 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74BB4C352816BDC200712603 /* Assets.xcassets */; };
@@ -59,6 +68,15 @@
 		740FE4C72818277C00458891 /* AuthRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRequestFactory.swift; sourceTree = "<group>"; };
 		740FE4C9281827B500458891 /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
 		740FE4CB281828BD00458891 /* RequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestFactory.swift; sourceTree = "<group>"; };
+		740FE4CD28182C8900458891 /* RegisterRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRequestFactory.swift; sourceTree = "<group>"; };
+		740FE4CF28182FFD00458891 /* RegisterUserResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUserResult.swift; sourceTree = "<group>"; };
+		740FE4D5281833AE00458891 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		740FE4D72818392E00458891 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		740FE4DA28183D7400458891 /* BoolRequestResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoolRequestResult.swift; sourceTree = "<group>"; };
+		740FE4DD28183DCF00458891 /* LogoutRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutRequestFactory.swift; sourceTree = "<group>"; };
+		740FE4DF28183E2700458891 /* Logout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logout.swift; sourceTree = "<group>"; };
+		740FE4E22818405500458891 /* ChangeUserDataRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeUserDataRequestFactory.swift; sourceTree = "<group>"; };
+		740FE4E42818410100458891 /* ChangeUserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeUserData.swift; sourceTree = "<group>"; };
 		74BB4C292816BDC100712603 /* MyShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74BB4C2C2816BDC100712603 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74BB4C2E2816BDC100712603 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -151,7 +169,10 @@
 			isa = PBXGroup;
 			children = (
 				740FE4C0281826F300458891 /* LoginResult.swift */,
+				740FE4DA28183D7400458891 /* BoolRequestResult.swift */,
+				740FE4CF28182FFD00458891 /* RegisterUserResult.swift */,
 				740FE4C32818271A00458891 /* User.swift */,
+				740FE4D72818392E00458891 /* UserData.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -167,11 +188,49 @@
 		740FE4C62818275C00458891 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				740FE4C72818277C00458891 /* AuthRequestFactory.swift */,
-				740FE4C9281827B500458891 /* Auth.swift */,
+				740FE4E12818402F00458891 /* ChangeUserData */,
+				740FE4D928183D3400458891 /* Logout */,
+				740FE4D42818339400458891 /* Register */,
+				740FE4D32818338900458891 /* Auth */,
 				740FE4CB281828BD00458891 /* RequestFactory.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		740FE4D32818338900458891 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				740FE4C72818277C00458891 /* AuthRequestFactory.swift */,
+				740FE4C9281827B500458891 /* Auth.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		740FE4D42818339400458891 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				740FE4CD28182C8900458891 /* RegisterRequestFactory.swift */,
+				740FE4D5281833AE00458891 /* Register.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		740FE4D928183D3400458891 /* Logout */ = {
+			isa = PBXGroup;
+			children = (
+				740FE4DD28183DCF00458891 /* LogoutRequestFactory.swift */,
+				740FE4DF28183E2700458891 /* Logout.swift */,
+			);
+			path = Logout;
+			sourceTree = "<group>";
+		};
+		740FE4E12818402F00458891 /* ChangeUserData */ = {
+			isa = PBXGroup;
+			children = (
+				740FE4E22818405500458891 /* ChangeUserDataRequestFactory.swift */,
+				740FE4E42818410100458891 /* ChangeUserData.swift */,
+			);
+			path = ChangeUserData;
 			sourceTree = "<group>";
 		};
 		74BB4C202816BDC100712603 = {
@@ -491,14 +550,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				740FE4CC281828BD00458891 /* RequestFactory.swift in Sources */,
+				740FE4E028183E2700458891 /* Logout.swift in Sources */,
 				74BB4C2D2816BDC100712603 /* AppDelegate.swift in Sources */,
 				740FE4C1281826F300458891 /* LoginResult.swift in Sources */,
+				740FE4DE28183DCF00458891 /* LogoutRequestFactory.swift in Sources */,
+				740FE4D028182FFD00458891 /* RegisterUserResult.swift in Sources */,
+				740FE4E52818410100458891 /* ChangeUserData.swift in Sources */,
 				740FE4BC281823FB00458891 /* DataRequest.swift in Sources */,
 				740FE4BE281825ED00458891 /* RequestRouter.swift in Sources */,
+				740FE4DB28183D7400458891 /* BoolRequestResult.swift in Sources */,
 				740FE4C42818271A00458891 /* User.swift in Sources */,
 				740FE4CA281827B500458891 /* Auth.swift in Sources */,
+				740FE4E32818405500458891 /* ChangeUserDataRequestFactory.swift in Sources */,
 				740FE4C82818277C00458891 /* AuthRequestFactory.swift in Sources */,
+				740FE4D6281833AE00458891 /* Register.swift in Sources */,
+				740FE4D82818392E00458891 /* UserData.swift in Sources */,
 				740FE4B62818236200458891 /* ErrorParser.swift in Sources */,
+				740FE4CE28182C8900458891 /* RegisterRequestFactory.swift in Sources */,
 				74BB4C2F2816BDC100712603 /* SceneDelegate.swift in Sources */,
 				740FE4B92818238F00458891 /* AbstractErrorParser.swift in Sources */,
 			);
