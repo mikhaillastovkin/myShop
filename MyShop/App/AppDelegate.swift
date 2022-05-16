@@ -37,7 +37,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             bio: "This is good! I think I will switch to another language")
         register.register(newUser: newUser) { response in
             switch response.result {
-
             case .success(let resultMessage):
                 print(resultMessage)
             case .failure(let error):
@@ -75,23 +74,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
 
+        //MARK: - Get products list
+        let getProductList = requestFactory.getProductList()
+        getProductList.getProductsList(pageNumber: 1, idCategory: 1) { response in
+            switch response.result {
+            case .success(let resultMessage):
+                print("\(getProductList.self) \(resultMessage)")
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+        }
         return true
     }
 
     // MARK: UISceneSession Lifecycle
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
-        // Called when a new scene session is being created.
-        // Use this method to select a configuration to create the new scene with.
         return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
     }
 
     func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
-        // Called when the user discards a scene session.
-        // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
-        // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
-
-
 }
-

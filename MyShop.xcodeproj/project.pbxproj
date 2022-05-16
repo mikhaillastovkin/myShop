@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1B02546819CCA1BC3473FDE8 /* Pods_MyShop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD7D5119EB03C471AA134FBA /* Pods_MyShop.framework */; };
+		59618953A7A1C5EC47F54DFC /* Pods_MyShop_MyShopUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BBECDC7ACD2AC96CD239C83 /* Pods_MyShop_MyShopUITests.framework */; };
+		6C6F507BDD0E830ECAED034A /* Pods_MyShopTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9FCCAD1BCCDF164D9674158 /* Pods_MyShopTests.framework */; };
 		740FE4B62818236200458891 /* ErrorParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FE4B52818236200458891 /* ErrorParser.swift */; };
 		740FE4B92818238F00458891 /* AbstractErrorParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FE4B82818238F00458891 /* AbstractErrorParser.swift */; };
 		740FE4BC281823FB00458891 /* DataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FE4BB281823FB00458891 /* DataRequest.swift */; };
@@ -26,26 +28,28 @@
 		740FE4E028183E2700458891 /* Logout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FE4DF28183E2700458891 /* Logout.swift */; };
 		740FE4E32818405500458891 /* ChangeUserDataRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FE4E22818405500458891 /* ChangeUserDataRequestFactory.swift */; };
 		740FE4E52818410100458891 /* ChangeUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FE4E42818410100458891 /* ChangeUserData.swift */; };
+		74545B5C283270700075E751 /* GetListProductsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746D9BBF28326F3E003061A7 /* GetListProductsTests.swift */; };
+		74545B64283273820075E751 /* MyShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74545B63283273820075E751 /* MyShopUITests.swift */; };
+		74545B66283273820075E751 /* MyShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74545B65283273820075E751 /* MyShopUITestsLaunchTests.swift */; };
+		74545B6D2833E9FD0075E751 /* ChangeUserDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74545B6C2833E9FD0075E751 /* ChangeUserDataTests.swift */; };
+		746D9BB72832618C003061A7 /* ProductListResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746D9BB62832618C003061A7 /* ProductListResult.swift */; };
+		746D9BB9283262F3003061A7 /* GetListProductsRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746D9BB8283262F3003061A7 /* GetListProductsRequestFactory.swift */; };
+		746D9BBB28326361003061A7 /* GetListProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746D9BBA28326361003061A7 /* GetListProducts.swift */; };
 		74BB4C2D2816BDC100712603 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BB4C2C2816BDC100712603 /* AppDelegate.swift */; };
 		74BB4C2F2816BDC100712603 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BB4C2E2816BDC100712603 /* SceneDelegate.swift */; };
 		74BB4C362816BDC200712603 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74BB4C352816BDC200712603 /* Assets.xcassets */; };
 		74BB4C392816BDC200712603 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74BB4C372816BDC200712603 /* LaunchScreen.storyboard */; };
-		74BB4C442816BDC200712603 /* MyShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BB4C432816BDC200712603 /* MyShopTests.swift */; };
-		74BB4C4E2816BDC200712603 /* MyShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BB4C4D2816BDC200712603 /* MyShopUITests.swift */; };
-		74BB4C502816BDC200712603 /* MyShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BB4C4F2816BDC200712603 /* MyShopUITestsLaunchTests.swift */; };
-		8E4056AF7B4CBED751E93E41 /* Pods_MyShop_MyShopUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BBECDC7ACD2AC96CD239C83 /* Pods_MyShop_MyShopUITests.framework */; };
-		E9EC37D40E5B7B8EFFC0B142 /* Pods_MyShopTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9FCCAD1BCCDF164D9674158 /* Pods_MyShopTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		74BB4C402816BDC200712603 /* PBXContainerItemProxy */ = {
+		74545B57283270620075E751 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 74BB4C212816BDC100712603 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 74BB4C282816BDC100712603;
 			remoteInfo = MyShop;
 		};
-		74BB4C4A2816BDC200712603 /* PBXContainerItemProxy */ = {
+		74545B67283273820075E751 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 74BB4C212816BDC100712603 /* Project object */;
 			proxyType = 1;
@@ -77,17 +81,21 @@
 		740FE4DF28183E2700458891 /* Logout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logout.swift; sourceTree = "<group>"; };
 		740FE4E22818405500458891 /* ChangeUserDataRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeUserDataRequestFactory.swift; sourceTree = "<group>"; };
 		740FE4E42818410100458891 /* ChangeUserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeUserData.swift; sourceTree = "<group>"; };
+		74545B53283270620075E751 /* MyShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74545B61283273820075E751 /* MyShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74545B63283273820075E751 /* MyShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyShopUITests.swift; sourceTree = "<group>"; };
+		74545B65283273820075E751 /* MyShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		74545B6C2833E9FD0075E751 /* ChangeUserDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeUserDataTests.swift; sourceTree = "<group>"; };
+		746D9BB62832618C003061A7 /* ProductListResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListResult.swift; sourceTree = "<group>"; };
+		746D9BB8283262F3003061A7 /* GetListProductsRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetListProductsRequestFactory.swift; sourceTree = "<group>"; };
+		746D9BBA28326361003061A7 /* GetListProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetListProducts.swift; sourceTree = "<group>"; };
+		746D9BBF28326F3E003061A7 /* GetListProductsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetListProductsTests.swift; sourceTree = "<group>"; };
 		74BB4C292816BDC100712603 /* MyShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74BB4C2C2816BDC100712603 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74BB4C2E2816BDC100712603 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		74BB4C352816BDC200712603 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74BB4C382816BDC200712603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74BB4C3A2816BDC200712603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		74BB4C3F2816BDC200712603 /* MyShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		74BB4C432816BDC200712603 /* MyShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyShopTests.swift; sourceTree = "<group>"; };
-		74BB4C492816BDC200712603 /* MyShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		74BB4C4D2816BDC200712603 /* MyShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyShopUITests.swift; sourceTree = "<group>"; };
-		74BB4C4F2816BDC200712603 /* MyShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		894CA0C8065F9CDF4B0AF52F /* Pods-MyShopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyShopTests.release.xcconfig"; path = "Target Support Files/Pods-MyShopTests/Pods-MyShopTests.release.xcconfig"; sourceTree = "<group>"; };
 		8F19486B961F35BEEE5079DC /* Pods-MyShop-MyShopUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyShop-MyShopUITests.debug.xcconfig"; path = "Target Support Files/Pods-MyShop-MyShopUITests/Pods-MyShop-MyShopUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BD7D5119EB03C471AA134FBA /* Pods_MyShop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyShop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,27 +104,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		74545B50283270620075E751 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C6F507BDD0E830ECAED034A /* Pods_MyShopTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74545B5E283273820075E751 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59618953A7A1C5EC47F54DFC /* Pods_MyShop_MyShopUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		74BB4C262816BDC100712603 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1B02546819CCA1BC3473FDE8 /* Pods_MyShop.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		74BB4C3C2816BDC200712603 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E9EC37D40E5B7B8EFFC0B142 /* Pods_MyShopTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		74BB4C462816BDC200712603 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8E4056AF7B4CBED751E93E41 /* Pods_MyShop_MyShopUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				740FE4C0281826F300458891 /* LoginResult.swift */,
+				746D9BB62832618C003061A7 /* ProductListResult.swift */,
 				740FE4DA28183D7400458891 /* BoolRequestResult.swift */,
 				740FE4CF28182FFD00458891 /* RegisterUserResult.swift */,
 				740FE4C32818271A00458891 /* User.swift */,
@@ -188,6 +197,7 @@
 		740FE4C62818275C00458891 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				746D9BB52832613F003061A7 /* GetListProducts */,
 				740FE4E12818402F00458891 /* ChangeUserData */,
 				740FE4D928183D3400458891 /* Logout */,
 				740FE4D42818339400458891 /* Register */,
@@ -233,12 +243,39 @@
 			path = ChangeUserData;
 			sourceTree = "<group>";
 		};
+		74545B54283270620075E751 /* MyShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				746D9BBF28326F3E003061A7 /* GetListProductsTests.swift */,
+				74545B6C2833E9FD0075E751 /* ChangeUserDataTests.swift */,
+			);
+			path = MyShopTests;
+			sourceTree = "<group>";
+		};
+		74545B62283273820075E751 /* MyShopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74545B63283273820075E751 /* MyShopUITests.swift */,
+				74545B65283273820075E751 /* MyShopUITestsLaunchTests.swift */,
+			);
+			path = MyShopUITests;
+			sourceTree = "<group>";
+		};
+		746D9BB52832613F003061A7 /* GetListProducts */ = {
+			isa = PBXGroup;
+			children = (
+				746D9BB8283262F3003061A7 /* GetListProductsRequestFactory.swift */,
+				746D9BBA28326361003061A7 /* GetListProducts.swift */,
+			);
+			name = GetListProducts;
+			sourceTree = "<group>";
+		};
 		74BB4C202816BDC100712603 = {
 			isa = PBXGroup;
 			children = (
 				74BB4C2B2816BDC100712603 /* MyShop */,
-				74BB4C422816BDC200712603 /* MyShopTests */,
-				74BB4C4C2816BDC200712603 /* MyShopUITests */,
+				74545B54283270620075E751 /* MyShopTests */,
+				74545B62283273820075E751 /* MyShopUITests */,
 				74BB4C2A2816BDC100712603 /* Products */,
 				52D02144A4E02BF7D935EFA8 /* Pods */,
 				6A08E77B56AA284467AD0521 /* Frameworks */,
@@ -249,8 +286,8 @@
 			isa = PBXGroup;
 			children = (
 				74BB4C292816BDC100712603 /* MyShop.app */,
-				74BB4C3F2816BDC200712603 /* MyShopTests.xctest */,
-				74BB4C492816BDC200712603 /* MyShopUITests.xctest */,
+				74545B53283270620075E751 /* MyShopTests.xctest */,
+				74545B61283273820075E751 /* MyShopUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -264,23 +301,6 @@
 				74BB4C5E2816BF9F00712603 /* Environments */,
 			);
 			path = MyShop;
-			sourceTree = "<group>";
-		};
-		74BB4C422816BDC200712603 /* MyShopTests */ = {
-			isa = PBXGroup;
-			children = (
-				74BB4C432816BDC200712603 /* MyShopTests.swift */,
-			);
-			path = MyShopTests;
-			sourceTree = "<group>";
-		};
-		74BB4C4C2816BDC200712603 /* MyShopUITests */ = {
-			isa = PBXGroup;
-			children = (
-				74BB4C4D2816BDC200712603 /* MyShopUITests.swift */,
-				74BB4C4F2816BDC200712603 /* MyShopUITestsLaunchTests.swift */,
-			);
-			path = MyShopUITests;
 			sourceTree = "<group>";
 		};
 		74BB4C5C2816BF1700712603 /* App */ = {
@@ -314,6 +334,46 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		74545B52283270620075E751 /* MyShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74545B59283270620075E751 /* Build configuration list for PBXNativeTarget "MyShopTests" */;
+			buildPhases = (
+				AC92BCCC7832F162F5D080FC /* [CP] Check Pods Manifest.lock */,
+				74545B4F283270620075E751 /* Sources */,
+				74545B50283270620075E751 /* Frameworks */,
+				74545B51283270620075E751 /* Resources */,
+				262385D30CCAC17E1725B126 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74545B58283270620075E751 /* PBXTargetDependency */,
+			);
+			name = MyShopTests;
+			productName = MyShopTests;
+			productReference = 74545B53283270620075E751 /* MyShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74545B60283273820075E751 /* MyShopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74545B6B283273820075E751 /* Build configuration list for PBXNativeTarget "MyShopUITests" */;
+			buildPhases = (
+				D586D220DE066E0D4BB4735B /* [CP] Check Pods Manifest.lock */,
+				74545B5D283273820075E751 /* Sources */,
+				74545B5E283273820075E751 /* Frameworks */,
+				74545B5F283273820075E751 /* Resources */,
+				D8C479FA0F5D34E7E92F28B3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74545B68283273820075E751 /* PBXTargetDependency */,
+			);
+			name = MyShopUITests;
+			productName = MyShopUITests;
+			productReference = 74545B61283273820075E751 /* MyShopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		74BB4C282816BDC100712603 /* MyShop */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74BB4C532816BDC200712603 /* Build configuration list for PBXNativeTarget "MyShop" */;
@@ -333,45 +393,6 @@
 			productReference = 74BB4C292816BDC100712603 /* MyShop.app */;
 			productType = "com.apple.product-type.application";
 		};
-		74BB4C3E2816BDC200712603 /* MyShopTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 74BB4C562816BDC200712603 /* Build configuration list for PBXNativeTarget "MyShopTests" */;
-			buildPhases = (
-				C50A8B7B1EDDB2F8A3BFD94E /* [CP] Check Pods Manifest.lock */,
-				74BB4C3B2816BDC200712603 /* Sources */,
-				74BB4C3C2816BDC200712603 /* Frameworks */,
-				74BB4C3D2816BDC200712603 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				74BB4C412816BDC200712603 /* PBXTargetDependency */,
-			);
-			name = MyShopTests;
-			productName = MyShopTests;
-			productReference = 74BB4C3F2816BDC200712603 /* MyShopTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		74BB4C482816BDC200712603 /* MyShopUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 74BB4C592816BDC200712603 /* Build configuration list for PBXNativeTarget "MyShopUITests" */;
-			buildPhases = (
-				5858864FF2ED7C1BCC9DDC08 /* [CP] Check Pods Manifest.lock */,
-				74BB4C452816BDC200712603 /* Sources */,
-				74BB4C462816BDC200712603 /* Frameworks */,
-				74BB4C472816BDC200712603 /* Resources */,
-				459861406A1939215666E787 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				74BB4C4B2816BDC200712603 /* PBXTargetDependency */,
-			);
-			name = MyShopUITests;
-			productName = MyShopUITests;
-			productReference = 74BB4C492816BDC200712603 /* MyShopUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -382,16 +403,16 @@
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
+					74545B52283270620075E751 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 74BB4C282816BDC100712603;
+					};
+					74545B60283273820075E751 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 74BB4C282816BDC100712603;
+					};
 					74BB4C282816BDC100712603 = {
 						CreatedOnToolsVersion = 13.3.1;
-					};
-					74BB4C3E2816BDC200712603 = {
-						CreatedOnToolsVersion = 13.3.1;
-						TestTargetID = 74BB4C282816BDC100712603;
-					};
-					74BB4C482816BDC200712603 = {
-						CreatedOnToolsVersion = 13.3.1;
-						TestTargetID = 74BB4C282816BDC100712603;
 					};
 				};
 			};
@@ -409,13 +430,27 @@
 			projectRoot = "";
 			targets = (
 				74BB4C282816BDC100712603 /* MyShop */,
-				74BB4C3E2816BDC200712603 /* MyShopTests */,
-				74BB4C482816BDC200712603 /* MyShopUITests */,
+				74545B52283270620075E751 /* MyShopTests */,
+				74545B60283273820075E751 /* MyShopUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		74545B51283270620075E751 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74545B5F283273820075E751 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		74BB4C272816BDC100712603 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -425,38 +460,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		74BB4C3D2816BDC200712603 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		74BB4C472816BDC200712603 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		459861406A1939215666E787 /* [CP] Embed Pods Frameworks */ = {
+		262385D30CCAC17E1725B126 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MyShop-MyShopUITests/Pods-MyShop-MyShopUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MyShopTests/Pods-MyShopTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MyShop-MyShopUITests/Pods-MyShop-MyShopUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MyShopTests/Pods-MyShopTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyShop-MyShopUITests/Pods-MyShop-MyShopUITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyShopTests/Pods-MyShopTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5103B0D9B8B1D002E414CAFE /* [CP] Embed Pods Frameworks */ = {
@@ -476,7 +497,29 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyShop/Pods-MyShop-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5858864FF2ED7C1BCC9DDC08 /* [CP] Check Pods Manifest.lock */ = {
+		AC92BCCC7832F162F5D080FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyShopTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D586D220DE066E0D4BB4735B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -498,26 +541,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C50A8B7B1EDDB2F8A3BFD94E /* [CP] Check Pods Manifest.lock */ = {
+		D8C479FA0F5D34E7E92F28B3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyShop-MyShopUITests/Pods-MyShop-MyShopUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MyShopTests-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-MyShop-MyShopUITests/Pods-MyShop-MyShopUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyShop-MyShopUITests/Pods-MyShop-MyShopUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EDC74E28F330655907C2071B /* [CP] Check Pods Manifest.lock */ = {
@@ -545,11 +583,30 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		74545B4F283270620075E751 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74545B6D2833E9FD0075E751 /* ChangeUserDataTests.swift in Sources */,
+				74545B5C283270700075E751 /* GetListProductsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74545B5D283273820075E751 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74545B66283273820075E751 /* MyShopUITestsLaunchTests.swift in Sources */,
+				74545B64283273820075E751 /* MyShopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		74BB4C252816BDC100712603 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				740FE4CC281828BD00458891 /* RequestFactory.swift in Sources */,
+				746D9BBB28326361003061A7 /* GetListProducts.swift in Sources */,
 				740FE4E028183E2700458891 /* Logout.swift in Sources */,
 				74BB4C2D2816BDC100712603 /* AppDelegate.swift in Sources */,
 				740FE4C1281826F300458891 /* LoginResult.swift in Sources */,
@@ -562,45 +619,30 @@
 				740FE4C42818271A00458891 /* User.swift in Sources */,
 				740FE4CA281827B500458891 /* Auth.swift in Sources */,
 				740FE4E32818405500458891 /* ChangeUserDataRequestFactory.swift in Sources */,
+				746D9BB72832618C003061A7 /* ProductListResult.swift in Sources */,
 				740FE4C82818277C00458891 /* AuthRequestFactory.swift in Sources */,
 				740FE4D6281833AE00458891 /* Register.swift in Sources */,
 				740FE4D82818392E00458891 /* UserData.swift in Sources */,
 				740FE4B62818236200458891 /* ErrorParser.swift in Sources */,
 				740FE4CE28182C8900458891 /* RegisterRequestFactory.swift in Sources */,
+				746D9BB9283262F3003061A7 /* GetListProductsRequestFactory.swift in Sources */,
 				74BB4C2F2816BDC100712603 /* SceneDelegate.swift in Sources */,
 				740FE4B92818238F00458891 /* AbstractErrorParser.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		74BB4C3B2816BDC200712603 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				74BB4C442816BDC200712603 /* MyShopTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		74BB4C452816BDC200712603 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				74BB4C502816BDC200712603 /* MyShopUITestsLaunchTests.swift in Sources */,
-				74BB4C4E2816BDC200712603 /* MyShopUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		74BB4C412816BDC200712603 /* PBXTargetDependency */ = {
+		74545B58283270620075E751 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 74BB4C282816BDC100712603 /* MyShop */;
-			targetProxy = 74BB4C402816BDC200712603 /* PBXContainerItemProxy */;
+			targetProxy = 74545B57283270620075E751 /* PBXContainerItemProxy */;
 		};
-		74BB4C4B2816BDC200712603 /* PBXTargetDependency */ = {
+		74545B68283273820075E751 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 74BB4C282816BDC100712603 /* MyShop */;
-			targetProxy = 74BB4C4A2816BDC200712603 /* PBXContainerItemProxy */;
+			targetProxy = 74545B67283273820075E751 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -616,6 +658,80 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		74545B5A283270620075E751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE38643653B4F3E9FA3B8A30 /* Pods-MyShopTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9TMC8XK38T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miksok.weather.MyShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyShop.app/MyShop";
+			};
+			name = Debug;
+		};
+		74545B5B283270620075E751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 894CA0C8065F9CDF4B0AF52F /* Pods-MyShopTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9TMC8XK38T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miksok.weather.MyShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyShop.app/MyShop";
+			};
+			name = Release;
+		};
+		74545B69283273820075E751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F19486B961F35BEEE5079DC /* Pods-MyShop-MyShopUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9TMC8XK38T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miksok.weather.MyShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyShop;
+			};
+			name = Debug;
+		};
+		74545B6A283273820075E751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B4BB0507C63BDDFA379B684 /* Pods-MyShop-MyShopUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9TMC8XK38T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miksok.weather.MyShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyShop;
+			};
+			name = Release;
+		};
 		74BB4C512816BDC200712603 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -786,89 +902,27 @@
 			};
 			name = Release;
 		};
-		74BB4C572816BDC200712603 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE38643653B4F3E9FA3B8A30 /* Pods-MyShopTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9TMC8XK38T;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ML.MyShopTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyShop.app/MyShop";
-			};
-			name = Debug;
-		};
-		74BB4C582816BDC200712603 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 894CA0C8065F9CDF4B0AF52F /* Pods-MyShopTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9TMC8XK38T;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ML.MyShopTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyShop.app/MyShop";
-			};
-			name = Release;
-		};
-		74BB4C5A2816BDC200712603 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F19486B961F35BEEE5079DC /* Pods-MyShop-MyShopUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9TMC8XK38T;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ML.MyShopUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MyShop;
-			};
-			name = Debug;
-		};
-		74BB4C5B2816BDC200712603 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B4BB0507C63BDDFA379B684 /* Pods-MyShop-MyShopUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9TMC8XK38T;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ML.MyShopUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MyShop;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		74545B59283270620075E751 /* Build configuration list for PBXNativeTarget "MyShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74545B5A283270620075E751 /* Debug */,
+				74545B5B283270620075E751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74545B6B283273820075E751 /* Build configuration list for PBXNativeTarget "MyShopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74545B69283273820075E751 /* Debug */,
+				74545B6A283273820075E751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		74BB4C242816BDC100712603 /* Build configuration list for PBXProject "MyShop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -883,24 +937,6 @@
 			buildConfigurations = (
 				74BB4C542816BDC200712603 /* Debug */,
 				74BB4C552816BDC200712603 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		74BB4C562816BDC200712603 /* Build configuration list for PBXNativeTarget "MyShopTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				74BB4C572816BDC200712603 /* Debug */,
-				74BB4C582816BDC200712603 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		74BB4C592816BDC200712603 /* Build configuration list for PBXNativeTarget "MyShopUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				74BB4C5A2816BDC200712603 /* Debug */,
-				74BB4C5B2816BDC200712603 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

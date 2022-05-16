@@ -2,7 +2,7 @@
 //  MyShopUITestsLaunchTests.swift
 //  MyShopUITests
 //
-//  Created by Михаил Ластовкин on 25.04.2022.
+//  Created by Михаил Ластовкин on 16.05.2022.
 //
 
 import XCTest
